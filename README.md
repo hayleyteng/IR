@@ -28,5 +28,6 @@ Information Extraction for UN Resolutions
        * 65th plenary meeting
        * 22 December 2018 <br />
 
-
+The result is shown as follows:<br />
+![images](https://github.com/hayleyteng/UN/blob/master/01.png "01")
 
