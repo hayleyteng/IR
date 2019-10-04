@@ -11,8 +11,8 @@ Information Extraction & Knowledge Elicitation for UN General Assembly (UNGA) re
 ## 1. Metadata with Regular Expression
 
   The Metadata was crawled from the UN General Assembly (UNGA) resolutions: https://www.un.org/en/sections/documents/general-assembly-resolutions/ <br />
-  Since all of the metadata follows some specific patterns, RE would be efficient to locate these basic information<br />
-  This task consists of two parts: fields extraction and basic segementation.<br />
+  To locate the critical information in the document, we display the high-level information under a structured format. The system chooses Regular Expression (RegEx) based on the existing structure of each document as RegEx allows to check a series of characters for “matches” with efficiency and adaptability. <br />
+  The task consists of two parts: fields extraction and basic segementation.<br />
 
 ### 1.1 Metadata for documents
 > The sample extracted metadata fields are shown below.<br />
