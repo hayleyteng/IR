@@ -52,7 +52,7 @@ The result is shown as follows:<br />
 > The sample output is shown as follows. Words in red belong to   `wrong abbreviations`.<br />
 > The testing accuracy for this task is  `0.88`.<br />
 
-![3-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/03.png "14")
+![3-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/14.png "14")
 
 ### 2.2 Refences and deadlines
 > Here our goal is to find out past resolutions and future dates.<br />
