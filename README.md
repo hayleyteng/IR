@@ -1,14 +1,15 @@
 
-Information Extraction for UN Resolutions
+Information Extraction & Knowledge Elicitation for UN General Assembly (UNGA) resolutions
 ===================================
-  In current system, only the pdf or word documents are stored in the system.<br />
-  It is hard for managers to query keywords or file in terms of categories. <br />
-  This project aims to solve this problem for the UN resolution system.
+  Currently, UN organizations and UN-related organizations produce, process, and maintain a high volume of documents, and the reports are initially designed for humans to read, process, and generated insights for decision-making. <br />
+  The massive number of documents and the current document format (.doc or .pdf) create challenges for both the UN information management system and decision-makers in the management. Extract keywords from materials in the original forms is both time-consuming and labor-intensive.<br />
+  This project aims to transform the documents into the "machine-readable" format, identify critical information and knowledge, improve information processing efficiency with automation, and conducted analysis for insights discovery. Specifically, the main objectives of the information system project are to generate machine-readable and semantically enhanced documentation automatically for 1) document retrieval tool; 2) metadata and document description query; 3) text mining for content analysis. 
 
 
 ## 1. Metadata with Regular Expression
 
-  Since all of the metadata has some specific pattern, RE would be efficient to locate these basic information<br />
+  The Metadata was crawled from the UN General Assembly (UNGA) resolutions: https://www.un.org/en/sections/documents/general-assembly-resolutions/
+  Since all of the metadata follows some specific patterns, RE would be efficient to locate these basic information<br />
   This task consists of two parts: fields extraction and basic segementation.<br />
 
 ### 1.1 Metadata for documents
@@ -33,7 +34,7 @@ The result is shown as follows:<br />
 ![images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/01.png "01")
 
 ### 1.2 Paragraph Segmentation
-> We extract   `operative, preamble, annex and footnote information`, which would be crucial to content analysis and future extraction.<br />
+> We extract   `operative, preamble, annex and footnote information`, which would be crucial for further content analysis. <br />
 > The figure below shows one example with    `'fn'` = footnote:
 
 ![2-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/02.png "02")
