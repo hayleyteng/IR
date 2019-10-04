@@ -37,7 +37,19 @@ The result is shown as follows:<br />
 
 ### 1.2 Paragraph Segmentation
 > We extract   `operative, preamble, annex and footnote information`, which would be crucial for further content analysis. <br />
-> The figure below shows one example with    `'fn'` = footnote:
+> The figure below shows example of the N1643743.doc with    `'op'` = operative:
+
+![15-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/15.png "15")
+
+> The figure below shows example of the N1643743.doc with    `'pre'` = preamble:
+
+![16-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/16.png "16")
+
+> The figure below shows example of the N1643743.doc with    `'ax'` = annex:
+
+![17-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/17.png "17")
+
+> The figure below shows example of the N1643743.doc with    `'fn'` = footnote:
 
 ![2-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/02.png "02")
 
@@ -52,7 +64,7 @@ The result is shown as follows:<br />
 > The sample output is shown as follows. Words in red belong to   `wrong abbreviations`.<br />
 > The testing accuracy for this task is  `0.88`.<br />
 
-![3-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/14.png "14")
+![14-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/14.png "14")
 
 ### 2.2 Refences and deadlines
 > Here our goal is to find out past resolutions and future dates.<br />
@@ -79,6 +91,7 @@ The result is shown as follows:<br />
       (['8 June 2020', '11 June 2020'], ['2030', '2020', '2019'])
       ###  Note that there are two lists returned
       ###  Year list is used when only year or year range is mentioned
+      
 ### 2.3 Word count and word-based filtered database
 > These two functions are only exploratory, no need to evaluate.<br />
 > Only     `nouns and adjectives` are kept for Word count, since they are loaded with more meaning.<br />
@@ -126,7 +139,7 @@ In this part, we applied NER(Name Entity Recognition) and LDA for Topic Modeling
 > Users can input all of the database, or subsets of database filtered by       `keywords or categories`.<br />
 > Sample output: (original HTML)
 
-![9-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/09.png "009")
+![9-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/09.png "09")
 
 ### 4.2 Named Entity Recognitions
 
@@ -140,7 +153,7 @@ In this part, we applied NER(Name Entity Recognition) and LDA for Topic Modeling
 
 ## 5. Django website
 
-> In order to visualize our results in the user friendly, a repository website is established. <br />
+> In order to demonstrate the results with the user-friendly interface , a repository website is established. <br />
 > This website is still under construction... <br />
 > Categories are the result of classifications according to UNBIS.<br />
 > Labels are the aggregation of five top words for each document.
