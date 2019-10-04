@@ -39,15 +39,15 @@ The result is shown as follows:<br />
 > We extract   `operative, preamble, annex and footnote information`, which would be crucial for further content analysis. <br />
 > The figure below shows example of the N1643743.doc with    `'op'` = operative:
 
-![15-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/15.png "15")
+![15-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/15.PNG "15")
 
 > The figure below shows example of the N1643743.doc with    `'pre'` = preamble:
 
-![16-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/16.png "16")
+![16-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/16.PNG "16")
 
 > The figure below shows example of the N1643743.doc with    `'ax'` = annex:
 
-![17-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/17.png "17")
+![17-images](https://github.com/hayleyteng/UN/blob/master/Report%20Attachments/17.PNG "17")
 
 > The figure below shows example of the N1643743.doc with    `'fn'` = footnote:
 
