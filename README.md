@@ -1,5 +1,5 @@
 
-# Information Extraction for UN Resolutions
+Information Extraction for UN Resolutions
 ===================================
   In current system, only the pdf or word documents are stored in the system.<br />
   It is hard for managers to query keywords or file in terms of categories. <br />
