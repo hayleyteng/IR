@@ -5,13 +5,15 @@ Information Extraction & Knowledge Elicitation for UN General Assembly (UNGA) re
   
   The massive number of documents and the current document format (.doc or .pdf) create challenges for both the UN information management system and decision-makers in the management. Extract keywords from materials in the original forms is both time-consuming and labor-intensive.<br />
   
-  This project aims to transform the documents into the "machine-readable" format, identify critical information and knowledge, improve information processing efficiency with automation, and conducted analysis for insights discovery. Specifically, the main objectives of the information system project are to generate machine-readable and semantically enhanced documentation automatically for 1) document retrieval tool; 2) metadata and document description query; 3) text mining for content analysis. 
+  This project aims to transform the documents into the "machine-readable" format, identify critical information and knowledge, improve information processing efficiency with automation, and conduct analysis for insights discovery. Specifically, the main objectives of the information system project are to generate machine-readable and semantically enhanced documentation automatically for 1) document retrieval tool; 2) metadata and document description query; 3) text mining for content analysis. 
 
 
 ## 1. Metadata with Regular Expression
 
   The Metadata was crawled from the UN General Assembly (UNGA) resolutions: https://www.un.org/en/sections/documents/general-assembly-resolutions/ <br />
+  
   To locate the critical information in the document, we display the high-level information under a structured format. The system chooses Regular Expression (RegEx) based on the existing structure of each document as RegEx allows to check a series of characters for “matches” with efficiency and adaptability. <br />
+  
   The task consists of two parts: fields extraction and basic segementation.<br />
 
 ### 1.1 Metadata for documents
